@@ -1,0 +1,249 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.main {
+
+    height: 1000px;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.sub_one{
+    background-color: aqua;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.sub_two {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    justify-content: space-between;
+}
+.name {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+    padding-left: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    font-size:x-large;
+}
+.img {
+    /* justify-content: end; */
+    /* float: right; */
+    padding-top: 40px;
+    height: 200px;
+    width: 250px;
+    background-color: brown;
+    border: 2px solid gray;
+    margin-left: 30%;
+    border-radius: 50%;
+}
+.main_two {
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.main-sub-one {
+    /* background-color: blueviolet; */
+    background-color: dodgerblue;
+    height: 1100px;
+    width: 50%;
+    
+}
+.main-sub-two {
+    /* background-color: blue; */
+    background-color: dodgerblue;
+    height: 1100px;
+    width: 50%;
+}
+.sri {
+    /* margin-left: 20px; */
+    float: right;
+}
+.deg {
+    float: right;
+}
+.edu {
+    border-bottom: 5px solid red;
+    width: max-content;
+}
+.mba {
+    float: right;
+}
+.cbse {
+    float: right;
+}
+.ug {
+    font-size: medium;
+    margin-left: 50px;
+}
+.srinidhi {
+    font-size: medium;
+    margin-left: 50px;
+}
+.zph {
+    font-size: medium;
+    margin-left: 50px;
+}
+.mst {
+    font-size: medium;
+    margin-left: 50px;
+}
+h1 {
+    margin-left: 50px;
+}
+p {
+    margin-left: 50px;
+    border: 2px solid gray;
+    width:max-content; *
+}
+.fin {
+    margin-left: 50px;
+    font-size: medium;
+    margin-left: 50px;
+    /* width:min-content; */
+}
+.business {
+    border: 2px solid black;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+.degree {
+    border: 2px solid black;
+    margin-left: 50px;
+}
+.jr {
+    border: 2px solid black; 
+    margin-left: 50px;  
+}
+.x {
+    border: 2px solid black; 
+    margin-left: 50px;
+     
+}
+.soft {
+    border: 2px solid black;
+    margin-left: 50px;
+    /* border-bottom: 5px solid red; */
+}
+.full {
+    /* font-size: medium; */
+    border-bottom: 5px solid red;
+    width: max-content;
+
+}
+.todo {
+    margin-left: 50px;
+}
+.project {
+    border-bottom: 5px solid red;
+    width: max-content;
+    /* margin-left: 50px; */
+}
+.list {
+    border: 2px solid black;
+    margin-left: 50px;
+}
+.pro {
+    margin-left: 50px;
+}
+h3 {
+    margin-left: 50px;
+}
+h4 {
+    margin-left: 50px;
+}
+.react {
+    border: 2px solid black;
+    margin-left: 50px;
+}
+.tch {
+    border-bottom: 5px solid red;
+    width: max-content;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.skill {
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+.int {
+    border-bottom: 5px solid red;
+    width: max-content;
+
+}
+.intrest {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.sk {
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+.skillss {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    text-align: center;
+justify-content: space-evenly;
+    font-weight: bold;
+    border: 2px solid gray;
+    align-items: center;
+
+}
+.intro {
+    font-size: medium;
+
+}
+.extra {
+    border: 2px solid black;
+    margin-left:50px ;
+}
+button {
+    height: 40px;
+    width: max-content;
+    text-align: center;
+}
+@media screen and (max-width:300px) {
+    /* .main-sub-two {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .sub_two {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .name {
+        margin: auto;
+        
+    } */
+
+    
+}
